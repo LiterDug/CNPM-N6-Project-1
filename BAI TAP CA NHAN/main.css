@@ -1,9 +1,8 @@
-#h1_1 {
-    color: green;
+.header1 {
+    color: red;
     font-size: 100px;
-}
-
-#h1_2 {
-    color: blue;
-    font-size: 90px;
+    background-color: green;
+    height: 25vh;
+    width: 30vw;
+    padding: 50px 75px;
 }

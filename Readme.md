@@ -1,4 +1,4 @@
-# Tìm hiểu HTML 24/01/2024
+# Tìm hiểu HTML 28/01/2024
 
 ## Các thẻ cơ bản
 - mở thẻ: ```<tên_thẻ>```
@@ -79,6 +79,7 @@ Có 3 kiểu CSS vs HTML là: Internal, External, Inline
 dấu ```;``` cần có nếu nhiều thuộc tính để ngăn cách
 
 ## CSS Selector
+
 ### ID
 - mục đích: chỉ định cho các thẻ với ID riêng
 - là thuộc tính của thẻ
@@ -94,3 +95,39 @@ dấu ```;``` cần có nếu nhiều thuộc tính để ngăn cách
 - Mục đích như ID nhưng áp dụng cho nhiều đối tượng, chỉ cần cùng tên class thì style sẽ được áp dụng
 - VD khai báo: ```<h1 class="h1_1">Thí chủ có link không ?</h1>```
 - Trong main.css dùng dấu ```.``` chẳng hạn ```.h1_1{ ... }```
+
+### Thứ tự ưu tiên dùng CSS
+- Đặc biệt nhất: ```!IMPORTANT```
+- 1st: Inline
+- 2nd: ID
+- 3rd: Class
+- 4th: Tag
+
+## CSS Variable
+- Sử dụng lớp giả:
+```
+:root {
+	<!--viết_vào_đây-->
+}
+```
+- Khai báo biến: ```--tên_biến: thuộc tính```
+- VD: ```--text_color: violet```
+- Nếu là biến toàn cục thì viết vào lớp giả trên, ngược lại là biến cục bộ viết vào thân tag cần dùng.
+
+## CSS Units
+### Đơn vị tuyệt đối
+
+- pixel: ```px```
+
+### Đơn vị tương đối
+- ```%```
+- ```rem```
+- ```em```
+- ```vh, vw```
+
+## Thuộc tính Padding (phần đệm)
+- Padding-Top:
+- Padding-Bottom:
+- Padding-Left:
+- Padding-Right:
+- Padding:
