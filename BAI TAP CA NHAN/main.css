@@ -1,8 +1,28 @@
-.header1 {
+.box1 {
     color: red;
     font-size: 100px;
-    background-color: green;
-    height: 25vh;
-    width: 30vw;
-    padding: 50px 75px;
+
+    background-color: blue;
+    padding: 20px 20px;
+}
+
+.box2 {
+    color: red;
+    font-size: 100px;
+    
+
+    background-color: yellowgreen;
+    padding: 20px;
+}
+
+.box3 {
+    color: red;
+    font-size: 100px;
+    
+    background-color: violet;
+    padding-right: 100px;
+    border: 100px;
+    border-style: solid;
+    border-width: 10px;
+    border-color: brown;
 }

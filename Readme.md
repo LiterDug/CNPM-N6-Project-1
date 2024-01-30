@@ -125,9 +125,19 @@ dấu ```;``` cần có nếu nhiều thuộc tính để ngăn cách
 - ```em```
 - ```vh, vw```
 
-## Thuộc tính Padding (phần đệm)
+## Căn gióng layer
+
+### Thuộc tính Padding (phần đệm)
 - Padding-Top:
 - Padding-Bottom:
 - Padding-Left:
 - Padding-Right:
 - Padding:
+### Thuộc tính Border
+- Border-color
+- Border-width
+	+ Border-top-width...
+- Border-style
+### Thuộc tính Margin
+- Viết ngắn: ```margin: 10px```
+-
