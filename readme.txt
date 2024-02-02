@@ -1,1 +1,3 @@
-asus 1
+BÀI TẬP CÁ NHÂN
+ĐINH CÔNG NHẤT
+B21DCVT037
