@@ -16,7 +16,7 @@ btnLogin.addEventListener("click", (e) => {
       user.password === inputPassword.value
     ) {
       alert("Đăng Nhập Thành Công");
-      window.location.href ="profile.html";
+      window.location.href ="home.html";
     } else {
       alert("Đăng Nhập Thất Bại");
     }
