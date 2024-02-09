@@ -61,7 +61,7 @@ ul li a:hover{
 
 .info h1{
     font-size: 65px;
-    color: rgb(36,32,30);
+    color: rgb(55, 154, 196);
 }
 
 .info h3{
@@ -86,7 +86,7 @@ ul li a:hover{
 }
 
 .info a:hover{
-    background: rgb(59,174,209);
+    background: rgb(37, 152, 186);
 }
 
 .image{
