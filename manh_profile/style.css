@@ -1,0 +1,22 @@
+a {
+    text-decoration: none;
+}
+
+.ions a{
+    text-decoration: none;
+    color:bg-primary;
+}
+
+
+
+.ions:hover{
+    color: #000;
+    text-decoration: none;
+}
+
+ion-icon{
+    color: inherit;
+    font-size: 30px;
+    
+}
+
