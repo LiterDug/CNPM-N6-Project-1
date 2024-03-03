@@ -83,6 +83,7 @@ nav a {
     width: 100%;
     float: left;
     padding-top: 110px;
+    margin-bottom: 100px;
 }
 .mt-20 {
     margin-top: 20px;
@@ -117,62 +118,6 @@ table td {
 	font-size: 16px;
 	text-align: left;
 	padding: 5px 0px;
-}
-.skill {
-    margin-top: 30px;
-    font-size: 17px;
-}
-.skill span {
-    float: right;
-}
-.skill div {
-    width: 100%;
-    float: left;
-    margin-top: 7px;
-    background: #e7e7e7;
-    border-radius: 10px;
-}
-.skill div span {
-    background: #ffbf35;
-    height: 5px;
-	float: left;
-}
-.bg-lightgrey {
-	background-color: #1a1a1a;
-}
-.edu-exp {
-	width: 48%;
-	margin: 1%;
-	float: left;
-    padding-left: 10px;
-
-}
-.experience-list {
-	width: 100%;
-	float: left;
-	padding: 30px 10px;
-	background: #262626;
-	margin-bottom: 20px;
-}
-.experience-content {
-	width: 100%;
-	float: left;
-	margin-left: 10px;
-}
-.experience-content h2 {
-
-	font-weight: 600;
-	margin-bottom: 5px;
-	font-size: 20px;
-}
-.experience-content h3 {
-	color: #ffbf35;
-	font-weight: 500;
-	margin-bottom: 2px;
-	font-size: 17px;
-}
-.experience-content p {
-	font-size: 15px;
 }
 .footer {
     background: #202020;
