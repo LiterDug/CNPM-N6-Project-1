@@ -1,73 +1,52 @@
-*{
+body{
+    margin: 0;
     padding: 0;
-}
-
-.name{
+  }
+  .box{
+    width: 700px;
+    height: 600px;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 60px;
     text-align: center;
-    font-size: 45px;
-    color: rgb(76, 0, 255);
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.avatar-img{
-
-}
-
-.avatar_pic{
-    width: auto;
-    height: 250px;
+    margin: auto;
+    margin-top: 5%;
+    color: white;
+    font-family: 'Century Gothic',sans-serif;
+  }
+  .box-img{
     border-radius: 50%;
-    display: block;
-    margin: 0 auto;
-    margin-top: 75px;
-}
-
-.text-contact{
-    font-size: 60px;
-    background-color: #cccccc;
-    color: rgb(43, 43, 43);
-    text-align: center;
-    text-decoration: none;
-    transition: 0.4s ease;
-}
-
-.text-contact:hover{
-    color: red;
-}
-
-.social{
-    display: flex;
-    justify-content: space-between;
-    list-style: none;
-    padding: 0;
-}
-
-
-.social img{
-    /* margin-right: 200px; */
-    margin-left: 15vw;
-    width: 20%;
-    height: auto;
-}
-
-.infor_table{
-    margin: 0 auto;
-    text-align: center;
-    vertical-align: middle;
-    border-collapse: separate;
-    border-spacing: 30px;
-}
-
-.footer_name{
-    text-align: center;
-    font-family: 'Courier New', Courier, monospace;
+    width: 250px;
+    height: 300px;
+  }
+  .box h1{
+    font-size: 40px;
+    letter-spacing: 4px;
+    font-weight: 100;
+  }
+  .box h5{
     font-size: 20px;
-}
-
-td{
-    color: blue;
-}
-
-thead{
-    font-style: oblique;
-}
+    letter-spacing: 3px;
+    font-weight: 100;
+  }
+  .box p{
+    text-align: justify;
+  }
+  ul{
+    margin: 0;
+    padding: 0;
+  }
+  .box li{
+    display: inline-block;
+    margin: 6px;
+    list-style: none;
+  }
+  .box li a{
+    color: white;
+    text-decoration: none;
+    font-size: 60px;
+    transition: all ease-in-out 250ms;
+  }
+  .box li a:hover{
+    color: #b9b9b9;
+  }
+  
