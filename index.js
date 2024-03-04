@@ -1,9 +1,6 @@
-// validation form login
 const inputUsername = document.querySelector(".input-login-username");
 const inputPassword = document.querySelector(".input-login-password");
 const btnLogin = document.querySelector(".login__signInButton");
-
-// validation form login
 
 btnLogin.addEventListener("click", (e) => {
   e.preventDefault();
