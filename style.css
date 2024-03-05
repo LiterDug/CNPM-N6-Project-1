@@ -132,13 +132,16 @@ body {
   height: 100vh;
   background: #f5f5f5;
 }
+body .login{
+  background: url('img/Back5.jpg') center/cover no-repeat;
+}
 .login__container {
   width: 100%;
   max-width: 400px;
   padding: 20px;
   background: #fff;
   border-radius: 5px;
-  box-shadow: 0 0 10px rgba(121, 48, 48, 0.1);
+  box-shadow: 0 0 40px rgba(0, 200, 255, 0.918);
 }
 .login__container h1 {
   margin-bottom: 20px;
@@ -198,13 +201,16 @@ body {
   height: 100vh;
   background: #f5f5f5;
 }
+body .signup{
+  background: url('img/Back5.jpg') center/cover no-repeat;
+}
 .signup__container {
   width: 100%;
   max-width: 400px;
   padding: 20px;
   background: #fff;
   border-radius: 5px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 40px rgba(0, 200, 255, 0.918);
 }
 .signup__container h1 {
   margin-bottom: 20px;
